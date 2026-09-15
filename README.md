@@ -60,6 +60,5 @@ pip install -r requirements.txt
 
 ---
 
-## Ekran Görüntüsü
 
 ![Arayüz Ekran Görüntüsü](assets/ui_screenshot.png)
