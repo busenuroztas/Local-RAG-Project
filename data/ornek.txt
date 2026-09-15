@@ -1,0 +1,4 @@
+Microsoft RAG Projesi, şirket içi dokümanları analiz eden yerel bir yapay zeka sistemidir.
+Bu sistem tamamen çevrimdışı (offline) çalışır ve kullanıcı verilerini dış sunuculara göndermez.
+Sistemde metinleri vektörleştirmek için Qwen3 Embedding modeli kullanılmaktadır.
+Veriler SQLite veritabanında güvenli bir şekilde saklanır.

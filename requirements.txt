@@ -1,0 +1,6 @@
+foundry-local-sdk
+openai
+gradio
+numpy
+pypdf
+python-docx
