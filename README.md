@@ -31,16 +31,21 @@ Kullanıcılar PDF, DOCX, DOC ve TXT formatındaki dokümanlarını sisteme yük
 
 ## Proje Mimarisi ve Klasör Yapısı
 
-* **database/**
-  * `db_manager.py`: SQLite veritabanı işlemleri ve Kosinüs Benzerliği araması
-* **models/**
-  * `embedding.py`: Metin vektörleştirme (Embedding) işlevleri
-* **utils/**
-  * `file_loader.py`: Dosya okuma (PDF, DOCX, TXT) ve metin parçalama (Chunking)
-* `app.py`: Gradio arayüzü ve RAG pipeline mantığı
-* `main.py`: Foundry SDK başlatıcı ve ana giriş noktası
-* `requirements.txt`: Gerekli Python kütüphaneleri
-* `README.md`: Proje dokümantasyonu
+```text
+MicrosoftRagProjesi/
+├── assets/
+│   └── ui_screenshot.png    # Arayüz ekran görüntüsü
+├── database/
+│   └── db_manager.py        # SQLite veritabanı işlemleri
+├── models/
+│   └── embedding.py         # Metin vektörleştirme işlevleri
+├── utils/
+│   └── file_loader.py       # Dosya okuma ve parçalama
+├── app.py                   # Gradio arayüzü ve RAG mantığı
+├── main.py                  # Giriş noktası
+├── requirements.txt         # Garakli kütüphaneler
+└── README.md                # Proje dokümantasyonu
+```
 
 ---
 
